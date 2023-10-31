@@ -1,0 +1,45 @@
+.sobre {
+   text-align: center;
+
+   &__title {
+      margin: 0 auto;
+      margin-bottom: 5rem;
+      padding-top: 5rem;
+      max-width: 50%;
+
+      &__text {
+         max-width: 40%;
+         margin: 0 auto;
+      }
+   }
+}
+
+@media (max-width: 640px) {
+   .sobre {
+      &__title {
+         max-width: 100%;
+         font-size: 3.5rem;
+         padding-top: 10rem;
+      }
+
+      &__text {
+         width: 90%;
+         margin: 0 auto;
+         font-size: 1.8rem;
+         margin-top: 8rem;
+      }
+   }
+}
+
+@media (min-width: 641px) and (max-width: 900px) {
+   .sobre {
+      &__title {
+         max-width: 100%;
+         padding-top: 10rem;
+      }
+      &__text {
+         max-width: 100%;
+         margin: 0 auto;
+      }
+   }
+}

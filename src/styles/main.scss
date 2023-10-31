@@ -1,0 +1,19 @@
+@use "reset";
+@use "menu";
+@use "variable";
+@use "hero";
+@use "sobre";
+@use "jobs";
+
+.main-bg {
+   background-color: variable.$primary-color;
+   color: variable.$white-color;
+}
+
+.white-bg {
+   background-color: variable.$white-color;
+}
+
+.section {
+   height: 100vh;
+}
